@@ -20,15 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/categories/live/index.html">
+  <meta name="description" content="Python 多线程 队列常与线程合用测试例子 123456789101112131415161718192021#!&#x2F;usr&#x2F;bin&#x2F;env 	pythonimport Queueimport threadingdef read_waiting_file(upload_queue):	for f in range(20):		upload_queue.put(f)		print fdef upl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python Queue队列">
+<meta property="og:url" content="http://example.com/2022/05/20/python/Queue%E9%98%9F%E5%88%97/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Python 多线程 队列常与线程合用测试例子 123456789101112131415161718192021#!&#x2F;usr&#x2F;bin&#x2F;env 	pythonimport Queueimport threadingdef read_waiting_file(upload_queue):	for f in range(20):		upload_queue.put(f)		print fdef upl">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-20T06:14:05.620Z">
+<meta property="article:modified_time" content="2018-12-24T01:26:37.000Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="线程">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/categories/live/">
+<link rel="canonical" href="http://example.com/2022/05/20/python/Queue%E9%98%9F%E5%88%97/">
 
 
 <script id="page-configurations">
@@ -36,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Category: live | Hexo</title>
+  <title>python Queue队列 | Hexo</title>
   
 
 
@@ -169,51 +174,103 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">live
-          <small>Category</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/20/python/Queue%E9%98%9F%E5%88%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          python Queue队列
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-05-20 14:14:05" itemprop="dateCreated datePublished" datetime="2022-05-20T14:14:05+08:00">2022-05-20</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2018-12-24 09:26:37" itemprop="dateModified" datetime="2018-12-24T09:26:37+08:00">2018-12-24</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+        <p><a target="_blank" rel="noopener" href="http://www.runoob.com/python/python-multithreading.html">Python 多线程</a></p>
+<h3 id="队列常与线程合用"><a href="#队列常与线程合用" class="headerlink" title="队列常与线程合用"></a>队列常与线程合用</h3><p>测试例子</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env 	python</span><br><span class="line">import Queue</span><br><span class="line">import threading</span><br><span class="line"></span><br><span class="line">def read_waiting_file(upload_queue):</span><br><span class="line">	for f in range(20):</span><br><span class="line">		upload_queue.put(f)</span><br><span class="line">		print f</span><br><span class="line">def upload_to_genedock(uploader_proc):</span><br><span class="line">	while not upload_queue.empty():</span><br><span class="line">		a=upload_queue.get()</span><br><span class="line">		print a</span><br><span class="line"></span><br><span class="line">upload_queue = Queue.Queue(5)</span><br><span class="line">proc = threading.Thread(target=read_waiting_file, name=&#x27;read_waiting_file&#x27;, args=(upload_queue,))</span><br><span class="line">uploader_proc = threading.Thread(target=upload_to_genedock, name=&quot;upload_to_genedock&quot;, args=(upload_queue,))</span><br><span class="line">proc.start()</span><br><span class="line">uploader_proc.start()</span><br><span class="line">proc.join()</span><br><span class="line">uploader_proc.join()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="Queue"><a href="#Queue" class="headerlink" title="Queue"></a>Queue</h3><p>Python的Queue模块中提供了同步的、线程安全的队列类，包括FIFO（先入先出)队列Queue，LIFO（后入先出）队列LifoQueue，和优先级队列PriorityQueue。这些队列都实现了锁原语，能够在多线程中直接使用。可以使用队列来实现线程间的同步。</p>
+<p>Queue模块中的常用方法:</p>
+<p>Queue.qsize() 返回队列的大小<br>Queue.empty() 如果队列为空，返回True,反之False<br>Queue.full() 如果队列满了，返回True,反之False<br>Queue.full 与 maxsize 大小对应<br>Queue.get([block[, timeout]])获取队列，timeout等待时间<br>Queue.get_nowait() 相当Queue.get(False)<br>Queue.put(item) 写入队列，timeout等待时间<br>Queue.put_nowait(item) 相当Queue.put(item, False)<br>Queue.task_done() 在完成一项工作之后，Queue.task_done()函数向任务已经完成的队列发送一个信号<br>Queue.join() 实际上意味着等到队列为空，再执行别的操作</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-05-20T14:22:20+08:00"
-              content="2022-05-20">
-          05-20
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BA%BF%E7%A8%8B/" rel="tag"># 线程</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/05/20/love/" itemprop="url">
-            <span itemprop="name">白菜</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/05/20/python/python%E8%AF%AD%E6%B3%95%E6%9D%82%E8%B0%88/" rel="prev" title="python语法杂谈">
+      <i class="fa fa-chevron-left"></i> python语法杂谈
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/05/20/python/virtualenv%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%9A%84python%E7%8E%AF%E5%A2%83/" rel="next" title="virtualenv创建虚拟的python环境">
+      virtualenv创建虚拟的python环境 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
   </article>
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
@@ -266,6 +323,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%9F%E5%88%97%E5%B8%B8%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%90%88%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">队列常与线程合用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Queue"><span class="nav-number">2.</span> <span class="nav-text">Queue</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

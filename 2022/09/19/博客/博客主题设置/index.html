@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="日志文件比较多的时候，博客了设置一些分类标签，能迅速的找到需要的东西，而且看起来比较舒服 下载主题进入hexo创建博客的根目录，打开命令行，运行：git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next这个命令就是下载next主题到当前目录themes下 启动主题修改配置文件_config.ymltheme: next">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客主题设置">
+<meta property="og:url" content="http://example.com/2022/09/19/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="日志文件比较多的时候，博客了设置一些分类标签，能迅速的找到需要的东西，而且看起来比较舒服 下载主题进入hexo创建博客的根目录，打开命令行，运行：git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next这个命令就是下载next主题到当前目录themes下 启动主题修改配置文件_config.ymltheme: next">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-09-19T05:42:03.044Z">
+<meta property="article:modified_time" content="2018-12-13T07:17:43.000Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="博客">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2022/09/19/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>博客主题设置 | Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>Commonweal 404</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/19/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          博客主题设置
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-09-19 13:42:03" itemprop="dateCreated datePublished" datetime="2022-09-19T13:42:03+08:00">2022-09-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2018-12-13 15:17:43" itemprop="dateModified" datetime="2018-12-13T15:17:43+08:00">2018-12-13</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>日志文件比较多的时候，博客了设置一些分类标签，能迅速的找到需要的东西，而且看起来比较舒服</p>
+<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><p>进入hexo创建博客的根目录，打开命令行，运行：<br><code>git clone https://github.com/theme-next/hexo-theme-next themes/next</code><br>这个命令就是下载next主题到当前目录themes下</p>
+<h3 id="启动主题"><a href="#启动主题" class="headerlink" title="启动主题"></a>启动主题</h3><p>修改配置文件_config.yml<br><code>theme: next</code></p>
+<h3 id="主题设定"><a href="#主题设定" class="headerlink" title="主题设定"></a>主题设定</h3><p>修改next&#x2F;_config.yml,找到Scheme Settings，这里有四种外观<br># Scheme Settings<br>#<br>-————————————————————–</p>
+<p># Schemes<br>#scheme: Muse 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白<br>#scheme: Mist Muse 的紧凑版本，整洁有序的单栏外观<br>#scheme: Pisces 双栏 Scheme，小家碧玉似的清新<br>#scheme: Gemini 左侧网站信息及目录，块+片段结构布局&#96;<br>想要哪个就把前面的#去掉就行</p>
+<h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p>修改配置文件_config.yml，将language设置成你所需要的语言，例如简体中文：<br>language: zh-Hans</p>
+<h3 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h3><p>修改next&#x2F;_config.yml，找到menu<br>menu:<br>  home: &#x2F; || home<br>  #about: &#x2F;about&#x2F; || user<br>  #tags: &#x2F;tags&#x2F; || tags<br>  #categories: &#x2F;categories&#x2F; || th<br>  archives: &#x2F;archives&#x2F; || archive<br>  #schedule: &#x2F;schedule&#x2F; || calendar<br>  #sitemap: &#x2F;sitemap.xml || sitemap<br>  #commonweal: &#x2F;404&#x2F; || heartbeat<br>这里我们可以设置标签、分类。在这之前需要创建page<br><code>hexo new page &#39;tags&#39;</code><br><code>hexo new page categories</code><br>在根目录下的source文件会生成tags、categories文件夹<br>分别修改tags和categories文件夹的index.md文件，新增type属性<br>-–<br>title: tags<br>date： 2018-08-08 12：12：12<br>type: tags<br>-–<br>categories的修改类似<br>在新建一篇博的时刻，增加tags和categories属性值，就能在tags和categories界面检索到文章了。</p>
+<h4 id="去掉文章后面的标签前面的-号"><a href="#去掉文章后面的标签前面的-号" class="headerlink" title="去掉文章后面的标签前面的#号"></a>去掉文章后面的标签前面的#号</h4><p>修改模板&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_macro&#x2F;post.swig，搜索 rel&#x3D;”tag”&gt;#，将#换成<i class="fa fa-tag"></i></p>
+<h4 id="动态背景"><a href="#动态背景" class="headerlink" title="动态背景"></a>动态背景</h4><p>目前NexT主题最新的是V6.0版本，这个版本中可以有4种动态背景：<br>Canvas-nest<br>three_waves<br>canvas_lines<br>canvas_sphere<br>设置方法也很简单，直接设置里需要的动态背景为true。</p>
+<h4 id="侧边栏社交小图标设置"><a href="#侧边栏社交小图标设置" class="headerlink" title="侧边栏社交小图标设置"></a>侧边栏社交小图标设置</h4><p>打开主题配置文件_config.yml，搜索social:, ||之后是在图标库中对应的图标。注意空格就行<br>social:<br>  #GitHub: <a target="_blank" rel="noopener" href="https://github.com/yourname">https://github.com/yourname</a> || github<br>  #E-Mail: mailto:<a href="mailto:&#x79;&#111;&#x75;&#x72;&#110;&#97;&#x6d;&#x65;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x79;&#111;&#x75;&#x72;&#110;&#97;&#x6d;&#x65;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a> || envelope<br>  #Google: <a target="_blank" rel="noopener" href="https://plus.google.com/yourname">https://plus.google.com/yourname</a> || google<br>  #Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/yourname">https://twitter.com/yourname</a> || twitter<br>  #FB Page: <a target="_blank" rel="noopener" href="https://www.facebook.com/yourname">https://www.facebook.com/yourname</a> || facebook<br>  #VK Group: <a target="_blank" rel="noopener" href="https://vk.com/yourname">https://vk.com/yourname</a> || vk<br>  #StackOverflow: <a target="_blank" rel="noopener" href="https://stackoverflow.com/yourname">https://stackoverflow.com/yourname</a> || stack-overflow<br>  #YouTube: <a target="_blank" rel="noopener" href="https://youtube.com/yourname">https://youtube.com/yourname</a> || youtube<br>  #Instagram: <a target="_blank" rel="noopener" href="https://instagram.com/yourname">https://instagram.com/yourname</a> || instagram<br>  #Skype: skype:yourname?call|chat || skype<br>去掉前面的#就行<br>可以加上自己的<br>  Google: <a target="_blank" rel="noopener" href="http://www.google.cn/">http://www.google.cn/</a> || google<br>  Github: <a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a> || github<br>  baidu: <a target="_blank" rel="noopener" href="https://www.baidu.com/">https://www.baidu.com/</a> || baidu<br>  Bing: <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com/</a> || Bing</p>
+<h4 id="博页面两侧的空白太多"><a href="#博页面两侧的空白太多" class="headerlink" title="博页面两侧的空白太多"></a>博页面两侧的空白太多</h4><p>编辑主题的source&#x2F;css&#x2F;_variables&#x2F;custom.styl文件，新增变量：<br>&#x2F;&#x2F; 修改成你期望的宽度<br>$content-desktop &#x3D; 700px   &#x2F;&#x2F; 我的为800px，自己调整测试即可<br>&#x2F;&#x2F; 当视窗超过 1600px 后的宽度<br>$content-desktop-large &#x3D; 900px<br>我的电脑上的配置是<br>$content-desktop &#x3D; 1000px<br>$content-desktop-large &#x3D; 1200px</p>
+<h4 id="代码超出自动换行"><a href="#代码超出自动换行" class="headerlink" title="代码超出自动换行"></a>代码超出自动换行</h4><p>修改 themes\next\source\css_common\scaffolding\base.styl<br>修改base.styl ,blockquote 样式下 添加 word-break: break-all;</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">blockquote &#123;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">  word-break: break-all;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_32454537/article/details/79482896">2018最新版Hexo博客Next主题6.0配置优化</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/70dbff8d7608">Hexo博客之主题美化</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/Mohon/article/details/69803130">Hexo NexT 主题下 blockquote 文本内容超出不自动换行解决方式</a><br><a target="_blank" rel="noopener" href="https://xiaotiandi.github.io/publicBlog/">一个看起来不错的博客版面</a><br><a target="_blank" rel="noopener" href="http://www.cocofe.cn/">其它博客</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/19/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86/" rel="prev" title="博客加密">
+      <i class="fa fa-chevron-left"></i> 博客加密
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">下载主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E4%B8%BB%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">启动主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E8%AE%BE%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">主题设定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%AF%AD%E8%A8%80"><span class="nav-number">4.</span> <span class="nav-text">设置语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%8F%9C%E5%8D%95"><span class="nav-number">5.</span> <span class="nav-text">设置菜单</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%BB%E6%8E%89%E6%96%87%E7%AB%A0%E5%90%8E%E9%9D%A2%E7%9A%84%E6%A0%87%E7%AD%BE%E5%89%8D%E9%9D%A2%E7%9A%84-%E5%8F%B7"><span class="nav-number">5.1.</span> <span class="nav-text">去掉文章后面的标签前面的#号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF"><span class="nav-number">5.2.</span> <span class="nav-text">动态背景</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%A4%BE%E4%BA%A4%E5%B0%8F%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE"><span class="nav-number">5.3.</span> <span class="nav-text">侧边栏社交小图标设置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%9A%E9%A1%B5%E9%9D%A2%E4%B8%A4%E4%BE%A7%E7%9A%84%E7%A9%BA%E7%99%BD%E5%A4%AA%E5%A4%9A"><span class="nav-number">5.4.</span> <span class="nav-text">博页面两侧的空白太多</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E8%B6%85%E5%87%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C"><span class="nav-number">5.5.</span> <span class="nav-text">代码超出自动换行</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">6.</span> <span class="nav-text">参考</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
